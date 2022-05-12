@@ -3,7 +3,7 @@
 # By Seth Leichsenring
 # For: https://github.com/TheEvergreenStateCollege/ProjectHopper
 # See: https://docs.docker.com/engine/reference/builder/ 
-FROM debian:latest
+FROM debian:11
 
 EXPOSE 22/tcp
 EXPOSE 22/udp
