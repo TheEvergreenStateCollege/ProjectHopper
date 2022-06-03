@@ -1,0 +1,7 @@
+image: 
+  file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/makarius/vsextensions/Isabelle2021-1/1.2.2/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/siegebell/vsextensions/prettify-symbols-mode/0.4.2/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/phr0s/vsextensions/bib/0.3.0/vspackage
