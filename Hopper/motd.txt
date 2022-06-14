@@ -1,0 +1,12 @@
+Welcome to Project Hopper!
+Use /bin/bash to launch bash
+Use ./startsql.sh <SQLFILE> <DATABASENAME> to import your SQL database
+Use ./savesql.sh <FILENAME.SQL> <DATABASE> to export your SQL database
+After exporting, remember to push your changes using Git!
+Use 'cat /etc/motd' to see this message again.
+
+If you have issues, contact Project Hopper support at
+https://help.evergreen.edu or at
+https://github.com/TheEvergreenStateCollege/ProjectHopper/issues
+or email us at hopper@evergreen.edu
+
