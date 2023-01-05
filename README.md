@@ -2,9 +2,9 @@
 
 Project Hopper provides a set of resources to offer containerized computing environments for students that are easy to use and work out-of-the-box.
 
-Hopper assumes students are familiar with or will be trained in a `git` based workflow.
+Hopper assumes students are familiar with or will be trained in the basics of a `git` based workflow.
 
-We recommend that you encourage students to use [Gitpod](https://gitpod.io/about) to host their workspaces. Gitpod provides a cloud-based IDE which integrates with Github and has a VSCode-like user interface. Gitpod is free for 50 hours a month and provides an excellent default Docker image if your program doesn't have its own. NOte tht you can shut down a workspace rather than waiting for it to timeout.
+We recommend that you encourage students to use [Gitpod](https://gitpod.io/about) to host their workspaces. Gitpod provides a cloud-based IDE which integrates with Github and has a VSCode-like user interface. Gitpod is free for 50 hours a month and provides an excellent default Docker image if your program doesn't have its own. Note that you can shut down a workspace (click on the hamburger) rather than waiting for it to timeout. You can also pin a workspace so that it doesn't get deleted. Students can create their own repository for their portfolio.
 
 ## Getting Started
 
