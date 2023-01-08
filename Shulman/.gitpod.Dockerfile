@@ -19,8 +19,9 @@ RUN apt-get install -y  git \
                         ocaml \
                         swi-prolog \
                         rust-gdb \
-                        golang
-
+                        golang 
+RUN pip install matplotlib
+RUN pip install pandas
 USER $USER
 
 # ISABELLE
