@@ -37,6 +37,7 @@ RUN apt-get install nmap -y
 # Richard - Maria-db/Mysql
 
 # Sherri: coq
+RUN apt-get install haskell-platform
 RUN apt-get install coq -y
 # Squeak for Sherri -- This is just the virtual machine and does not include an editor.
 RUN apt-get install squeak-vm -y
