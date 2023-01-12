@@ -9,23 +9,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 USER root
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y  git \
-                        build-essential \
-                        python3 \
-                        ghc ghc-prof ghc-doc \
-                        coq \
-                        squeak-vm \
-                        default-jdk \
-                        ocaml \
-                        swi-prolog \
-                        rust-gdb \
-                        golang \
-                        haskell-platform 
-RUN pip install matplotlib
-RUN pip install pandas
-USER $USER
+RUN apt-get install -y  ghc ghc-prof ghc-doc \
+                        haskell-platform       
 
-# ISABELLE
-RUN curl -L -o Isabelle2021-1_linux.tar.gz https://isabelle.in.tum.de/dist/Isabelle2021-1_linux.tar.gz
-RUN tar -xzf Isabelle2021-1_linux.tar.gz
-RUN rm Isabelle2021-1_linux.tar.gz
+USER $USER
