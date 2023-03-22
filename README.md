@@ -10,11 +10,9 @@ We recommend that you encourage students to use [Gitpod](https://gitpod.io/about
 
 - Create a Github or Gitlab repository with the student-facing instruction materials for your program.
 
-    Students will commit directly to their own copy of this repository. We recommend using [Github Classroom](https://classroom.github.com/) for managing this workflow.
-
 - Include a `.gitpod.yml` file in the root of your repo. This file wll tell Gitpod how to set up each workspace.
 
-    This file points to the Docker image for your course. If your course has an image which is hosted by the college, the image name to use can be found [here](https://hub.docker.com/u/tesccnc), for example:
+    This file points to the Docker image for your course. If your course has an image which is hosted by the college, the image name to use can be found on [Docker Hub](https://hub.docker.com/u/tesccnc), for example:
 
     ```yml
     image: tesccnc/datascience
@@ -22,7 +20,7 @@ We recommend that you encourage students to use [Gitpod](https://gitpod.io/about
 
     The default Gitpod workspace contains [these things](https://github.com/gitpod-io/workspace-images/blob/481f7600b725e0ab507fbf8377641a562a475625/dazzle.yaml#L18). If you want to just use the default image, you don't have to include a `.gitpod.yml` file.
 
-    The `.gitpod.yml` file supports many other options. The documentation can be found [here](https://www.gitpod.io/docs/references/gitpod-yml).
+    The `.gitpod.yml` file supports many other options. The documentation can be found on [gitpod.io](https://www.gitpod.io/docs/references/gitpod-yml).
 
 ## Setting up a Workspace
 

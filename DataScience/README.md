@@ -11,7 +11,6 @@ This container provides many popular Python packages for working with and modeli
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [Matplotlib](https://matplotlib.org)
 - [SQLAlchemy](https://www.sqlalchemy.org)
-- [seaborn](https://seaborn.pydata.org)
 
 and those listed in the requirements file and in the Dockerfile.
 
