@@ -17,11 +17,15 @@ We recommend that you encourage students to use [Gitpod](https://gitpod.io/about
     ```yml
     image: tesccnc/datascience
     ```
-
+    
     The default Gitpod workspace contains [these things](https://github.com/gitpod-io/workspace-images/blob/481f7600b725e0ab507fbf8377641a562a475625/dazzle.yaml#L18). If you want to just use the default image, you don't have to include a `.gitpod.yml` file.
 
     The `.gitpod.yml` file supports many other options. The documentation can be found on [gitpod.io](https://www.gitpod.io/docs/references/gitpod-yml).
-
+    
+    If creating assignments through Github Classroom, first create a template repository and include the `.gitpod.yml` for your course at the root of the template repository. 
+    Make sure to select your template repository when you go to create an assignment on github classroom. This will allow students to open up their assignments via gitpod 
+    without having to worry about setting up an environment to work in.
+    
 ## Setting up a Workspace
 
 - Go to [gitpod.io](https://gitpod.io).
